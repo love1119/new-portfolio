@@ -43,25 +43,39 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'WhirrCrew',
-    location: 'Prague, Czechia',
-    description: `Front-end Web Develpoer position. Responsible for implemntation of accessible and interactive interface. Working on various projects with AI integration. `,
+    title: 'Full Stack Team Lead - React, Node.js, Python',
+    location: 'Groundswell',
+    description: `Led Cross-functional teams, Architected Scalable Solutions, Mentorship, Client Collaboration, Drive Continuous Improvement`,
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Jun 2024 - Present',
+    date: 'Jun 2021 - Aug 2024',
   },
   {
-    title: 'NAU',
-    location: 'Kyiv, Ukraine',
-    description: `Bachelor's degree in Cybersecurity. Studying on the faculty of Cyber Security and Software Engineering.`,
+    title: 'Senior Full Stack Developer - React, Python',
+    location: 'Pypestream',
+    description: `Created AI chatbots that deliver a seamless, app-like experience with the convenience of a self-service conversation that drives adoption and delights customers.`,
+    icon: React.createElement(BriefcaseBusinessIcon),
+    date: 'Mar 2018 - May 2021',
+  },
+  {
+    title: 'FULL STACK DEVELOPER - REACT, MIRTH CONNECT',
+    location: 'SpinSci Technologies LLC',
+    description: `Worked on Patient Engagement team to allow patients to perform self-service operations to take control and manage their own healthcare workflows.`,
+    icon: React.createElement(BriefcaseBusinessIcon),
+    date: 'Jul 2015 - Feb 2018',
+  },
+  {
+    title: 'SOFTWARE ENGINEER',
+    location: 'TeraThink Corporation',
+    description: `Responsive web design, API Integration and Development, Cross-team Collaboration`,
+    icon: React.createElement(BriefcaseBusinessIcon),
+    date: 'Feb 2012 - Jun 2015',
+  },
+  {
+    title: 'Holy Names University',
+    location: '',
+    description: `Bachelor of Science in Computer Science`,
     icon: React.createElement(BookIcon),
-    date: 'Sep 2022 - Present',
-  },
-  {
-    title: 'Self-studying',
-    location: 'Czechia',
-    description: `Digging into Programming, Software Engineering and Web Development, picking up a great expertise in TypeScript, React, Next.js, Node.js, and database technologies (MongoDB/PostgreSQL/MySQL) utilizing Prisma for efficient data access.`,
-    icon: React.createElement(LaptopMinimalIcon),
-    date: 'Jul 2022 - Present',
+    date: '2007 - 2012',
   },
 ] as const;
 
